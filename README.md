@@ -1,4 +1,4 @@
-# Voicebot With Rasa Open Source & Botium Speech Processing 
+# Voicebot with Rasa Open Source & Botium Speech Processing 
 
 ## Tested/Implemented on below hardware :
 
