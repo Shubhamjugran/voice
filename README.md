@@ -28,14 +28,14 @@ Operating System : Windows 10 (Version : 21H1)
 - (Rasa-actions-server)              ![This is an image](/screenshots/actions.png)
 - (Duckling-server)                  ![This is an image](/screenshots/duckling.png)
 
-### Okteto Endpoints :link:  
+### Okteto Endpoints :link:
 
 - Rasa Server [link](https://rasa-server-rasa281-shubhamjugran.cloud.okteto.net)
 - Duckling Server [link](https://duckling-server-rasa281-shubhamjugran.cloud.okteto.net)
-
   
 
-## Achievements ::medal_sports:
-- Found a bug while deploying botium speech processing on Okteto  ![This is an image](/screenshots/mail.png)
-- Contributed docker-logs to okteto [link](https://github.com/okteto/okteto/issues/2119)
-- logs [link](https://github.com/Shubhamjugran/voice/tree/main/logs)  
+## Contribution ::medal_sports:
+- Encountered a bug while deploying botium speech processing on Okteto.  ![This is an image](/screenshots/mail.png)
+- Contributed docker-logs to okteto. [link](https://github.com/okteto/okteto/issues/2119)
+- Find logs [here](https://github.com/Shubhamjugran/voice/tree/main/logs)  
+- 
