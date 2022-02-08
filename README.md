@@ -1,4 +1,4 @@
-# Voicebot with Rasa Open Source & Botium Speech Processing 
+# Voicebot powered by Rasa Open Source & Botium Speech Processing 
 
 ## Tested/Implemented on below hardware :
 
@@ -8,6 +8,19 @@ RAM : 16 GB
 GPU : 6 GB (Nvidia 1660Ti)  
 Nvme M.2 SSD : 500 GB  
 Operating System : Windows 10 (Version : 21H1)  
+
+## Resource Consumption :  
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;**RAM**
+
+- (Speech To Text) kaldi STT engine &emsp;:&emsp; **3.6 GB**  
+- (Text To Speech) pico TTS engine  &emsp;&nbsp;:&emsp; **2.8 GB**  
+- (Frontend) GUI for test out API   &emsp;&emsp;&nbsp;:&emsp; **81.9 MB**  
+- (Nginx) Web Server                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:&emsp; **2.2 MB**  
+- (Rasa Server) General Bot         &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;:&emsp; **660.6 MB**  
+- (Rasa-actions-server)Email-Time   &emsp;&ensp;&nbsp;:&emsp; **51.8 MB**  
+
+
 
 ## Installation
 ### Software Requirements :
