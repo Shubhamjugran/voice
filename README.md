@@ -20,13 +20,13 @@ Operating System : Windows 10 (Version : 21H1)
 
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
-**- (Speech To Text) kaldi STT engine  ![This is an image](/screenshots/kaldi.png)
-**- (Text To Speech) pico TTS engine   ![This is an image](/screenshots/tts.png)
-**- (Frontend) GUI for test out API    ![This is an image](/screenshots/frntend.png)
-**- (Nginx) Web Server                 ![This is an image](/screenshots/nginx.png)
-**- (Rasa Server) General Bot          ![This is an image](/screenshots/rasa.png)
-**- (Rasa-actions-server)              ![This is an image](/screenshots/actions.png)
-**- (Duckling-server)                  ![This is an image](/screenshots/duckling.png)
+**- (Speech To Text) kaldi STT engine** :point_down: ![This is an image](/screenshots/kaldi.png)
+**- (Text To Speech) pico TTS engine**  :point_down: ![This is an image](/screenshots/tts.png)
+**- (Frontend) GUI for test out API**   :point_down: ![This is an image](/screenshots/frntend.png)
+**- (Nginx) Web Server**                :point_down: ![This is an image](/screenshots/nginx.png)
+**- (Rasa Server) General Bot**         :point_down: ![This is an image](/screenshots/rasa.png)
+**- (Rasa-actions-server)**             :point_down: ![This is an image](/screenshots/actions.png)
+**- (Duckling-server)**                 :point_down: ![This is an image](/screenshots/duckling.png)
 
 ### Okteto Endpoints :link:
 
