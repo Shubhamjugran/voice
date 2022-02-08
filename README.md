@@ -10,7 +10,7 @@ Nvme M.2 SSD : 500 GB
 Operating System : Windows 10 (Version : 21H1)  
 
 ## Installation :writing_hand:  
-### Software Requirements ::point_down:
+### Requirements ::point_down:
 -> Docker : Ensure virtualization is enabled. Installed in WSL2 mode.[link](https://docs.docker.com/engine/install/)  
 -> Python 3.7 or 3.8 (Install as per requirement of your Rasa version)  
 -> IDE like pycharm,vscode etc or cmd.  
