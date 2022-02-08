@@ -16,17 +16,17 @@ Operating System : Windows 10 (Version : 21H1)
 - IDE like pycharm,vscode etc or cmd.  
 - Rasa Open Source project [link](https://github.com/Shubhamjugran/rasa_gen)  
 - Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
-- Webpage for chatbot interaction.[link](https://awaaz.azurewebsites.net/home/demo)
+- Webpage for chatbot interaction (UI).[link](https://awaaz.azurewebsites.net/home/demo)
 
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
-- (Speech To Text) kaldi STT engine  ![This is an image](/screenshots/kaldi.png)
-- (Text To Speech) pico TTS engine   ![This is an image](/screenshots/tts.png)
-- (Frontend) GUI for test out API    ![This is an image](/screenshots/frntend.png)
-- (Nginx) Web Server                 ![This is an image](/screenshots/nginx.png)
-- (Rasa Server) General Bot          ![This is an image](/screenshots/rasa.png)
-- (Rasa-actions-server)              ![This is an image](/screenshots/actions.png)
-- (Duckling-server)                  ![This is an image](/screenshots/duckling.png)
+**- (Speech To Text) kaldi STT engine  ![This is an image](/screenshots/kaldi.png)
+**- (Text To Speech) pico TTS engine   ![This is an image](/screenshots/tts.png)
+**- (Frontend) GUI for test out API    ![This is an image](/screenshots/frntend.png)
+**- (Nginx) Web Server                 ![This is an image](/screenshots/nginx.png)
+**- (Rasa Server) General Bot          ![This is an image](/screenshots/rasa.png)
+**- (Rasa-actions-server)              ![This is an image](/screenshots/actions.png)
+**- (Duckling-server)                  ![This is an image](/screenshots/duckling.png)
 
 ### Okteto Endpoints :link:
 
