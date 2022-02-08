@@ -37,4 +37,5 @@ Operating System : Windows 10 (Version : 21H1)
 
 ## Achievements ::medal_sports:
 - Found a bug while deploying botium speech processing on Okteto  ![This is an image](/screenshots/mail.png)
+- Contributed docker-logs to okteto [link](https://github.com/okteto/okteto/issues/2119)
 - logs [link](https://github.com/Shubhamjugran/voice/tree/main/logs)  
