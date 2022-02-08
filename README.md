@@ -11,12 +11,12 @@ Operating System : Windows 10 (Version : 21H1)
 
 ## Installation :writing_hand:  
 ### Requirements ::point_down:
--> Docker : Ensure virtualization is enabled. Installed in WSL2 mode.[link](https://docs.docker.com/engine/install/)  
--> Python 3.7 or 3.8 (Install as per requirement of your Rasa version)  
--> IDE like pycharm,vscode etc or cmd.  
--> Rasa Open Source project [link](https://github.com/Shubhamjugran/rasa_gen)  
--> Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
--> Webpage for chatbot interaction.[link](https://awaaz.azurewebsites.net/home/demo)
+- Docker : Ensure virtualization is enabled. Installed in WSL2 mode.[link](https://docs.docker.com/engine/install/)  
+- Python 3.7 or 3.8 (Install as per requirement of your Rasa version)  
+- IDE like pycharm,vscode etc or cmd.  
+- Rasa Open Source project [link](https://github.com/Shubhamjugran/rasa_gen)  
+- Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
+- Webpage for chatbot interaction.[link](https://awaaz.azurewebsites.net/home/demo)
 
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
