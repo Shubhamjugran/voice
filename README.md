@@ -15,8 +15,8 @@ Operating System : Windows 10 (Version : 21H1)
 -> Python 3.7 or 3.8 (Install as per requirement of your Rasa version)  
 -> IDE like pycharm,vscode etc or cmd.  
 -> Rasa Open Source project [link](https://github.com/Shubhamjugran/rasa_gen)  
--> Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)
--> Webpage for chatbot interaction.(https://awaaz.azurewebsites.net/home/demo)
+-> Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
+-> Webpage for chatbot interaction.[link](https://awaaz.azurewebsites.net/home/demo)
 
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
@@ -38,3 +38,8 @@ Operating System : Windows 10 (Version : 21H1)
 - Contributed docker-logs to okteto. [link](https://github.com/okteto/okteto/issues/2119)
 - Find logs [here](https://github.com/Shubhamjugran/voice/tree/main/logs)  
 - 
+
+## Resources :milky_way:
+- Kaldi [link](https://github.com/kaldi-asr/kaldi)
+- Code for equity (Botium) [link](https://github.com/codeforequity-at/botium-speech-processing)
+- Rasa Open Source [link](https://rasa.com/open-source/)
