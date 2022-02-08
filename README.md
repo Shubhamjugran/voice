@@ -35,9 +35,8 @@ Operating System : Windows 10 (Version : 21H1)
 
 ## Contribution ::medal_sports:
 - Encountered a bug while deploying botium speech processing on Okteto.  ![This is an image](/screenshots/mail.png)
-- Contributed docker-logs to okteto. [link](https://github.com/okteto/okteto/issues/2119)
-- Find logs [here](https://github.com/Shubhamjugran/voice/tree/main/logs)  
-- 
+- Contributed docker-compose-logs to okteto. [link](https://github.com/okteto/okteto/issues/2119)
+- Contributed logs for containers. [here](https://github.com/Shubhamjugran/voice/tree/main/logs)  
 
 ## Resources :milky_way:
 - Kaldi [link](https://github.com/kaldi-asr/kaldi)
