@@ -1,0 +1,13 @@
+2022-01-07 08:06:34.00 UTCnginx-6bc749f444-c49w4[pod-event]Successfully assigned voice-shubhamjugran/nginx-6bc749f444-c49w4 to gke-cloud-dev-f-1-422de127-m0ns
+2022-01-07 08:06:37.00 UTCnginx-6bc749f444-c49w4[pod-event]Pulling image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-nginx:okteto-with-volume-mounts"
+2022-01-07 08:06:41.00 UTCnginx-6bc749f444-c49w4[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-nginx:okteto-with-volume-mounts" in 4.732354814s
+2022-01-07 08:06:42.00 UTCnginx-6bc749f444-c49w4[pod-event]Created container nginx
+2022-01-07 08:06:42.00 UTCnginx-6bc749f444-c49w4[pod-event]Started container nginx
+2022-01-07 08:06:42.85 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+2022-01-07 08:06:42.85 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+2022-01-07 08:06:42.85 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+2022-01-07 08:06:42.90 UTCnginx-6bc749f444-c49w4nginx10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+2022-01-07 08:06:42.93 UTCnginx-6bc749f444-c49w4nginx10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+2022-01-07 08:06:42.93 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+2022-01-07 08:06:42.94 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+2022-01-07 08:06:42.94 UTCnginx-6bc749f444-c49w4nginx/docker-entrypoint.sh: Configuration complete; ready for start up

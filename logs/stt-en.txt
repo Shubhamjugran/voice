@@ -1,0 +1,14 @@
+2022-01-07 08:06:35.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully assigned voice-shubhamjugran/stt-en-6c994f4f7c-vthbd to gke-cloud-dev-f-1-422de127-0vjj
+2022-01-07 08:06:36.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Pulling image "botium/botium-speech-kaldi-en:latest"
+2022-01-07 08:12:09.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully pulled image "botium/botium-speech-kaldi-en:latest" in 5m33.108275685s
+2022-01-07 08:12:10.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Created container stt-en
+2022-01-07 08:12:10.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Started container stt-en
+2022-01-07 08:12:12.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully pulled image "botium/botium-speech-kaldi-en:latest" in 536.614916ms
+2022-01-07 08:12:14.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Back-off restarting failed container
+2022-01-07 08:12:30.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully pulled image "botium/botium-speech-kaldi-en:latest" in 519.412265ms
+2022-01-07 08:12:57.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully pulled image "botium/botium-speech-kaldi-en:latest" in 520.861801ms
+2022-01-07 08:13:38.00 UTCstt-en-6c994f4f7c-vthbd[pod-event]Successfully pulled image "botium/botium-speech-kaldi-en:latest" in 504.441301ms
+2022-01-07 08:13:39.62 UTCstt-en-6c994f4f7c-vthbdstt-en/usr/lib/python2.7/dist-packages/supervisor/options.py:297: UserWarning: Supervisord is running as root and it is searching for its configuration file in default locations (including its current working directory); you probably want to specify a "-c" argument specifying an absolute path to a configuration file for improved security.
+2022-01-07 08:13:39.62 UTCstt-en-6c994f4f7c-vthbdstt-en 'Supervisord is running as root and it is searching '
+2022-01-07 08:13:39.63 UTCstt-en-6c994f4f7c-vthbdstt-enError: The directory named as part of the path /opt/logs/master.log does not exist. in section 'program:master' (file: '/etc/supervisor/conf.d/supervisord.conf')
+2022-01-07 08:13:39.63 UTCstt-en-6c994f4f7c-vthbdstt-enFor help, use /usr/bin/supervisord -h

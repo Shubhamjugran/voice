@@ -1,0 +1,44 @@
+2022-01-07 08:06:34.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully assigned voice-shubhamjugran/tts-6456db4d8-shcw5 to gke-cloud-dev-b-1-b0b413d1-j5bd
+2022-01-07 08:06:35.00 UTCtts-6456db4d8-shcw5[pod-event]Pulling image "botium/botium-speech-marytts:latest"
+2022-01-07 08:06:36.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully pulled image "botium/botium-speech-marytts:latest" in 617.541255ms
+2022-01-07 08:06:36.00 UTCtts-6456db4d8-shcw5[pod-event]Created container tts
+2022-01-07 08:06:37.00 UTCtts-6456db4d8-shcw5[pod-event]Started container tts
+2022-01-07 08:07:23.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully pulled image "botium/botium-speech-marytts:latest" in 582.370755ms
+2022-01-07 08:08:05.00 UTCtts-6456db4d8-shcw5[pod-event]Back-off restarting failed container
+2022-01-07 08:08:21.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully pulled image "botium/botium-speech-marytts:latest" in 492.777859ms
+2022-01-07 08:09:32.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully pulled image "botium/botium-speech-marytts:latest" in 589.52135ms
+2022-01-07 08:10:55.00 UTCtts-6456db4d8-shcw5[pod-event]Successfully pulled image "botium/botium-speech-marytts:latest" in 532.81574ms
+2022-01-07 08:13:15.20 UTCtts-6456db4d8-shcw5ttsStarting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+2022-01-07 08:13:55.05 UTCtts-6456db4d8-shcw5ttsMARY server 5.2 starting as a HTTP server...Exception in thread "main" java.lang.Exception: Problem starting module Synthesis
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.startModules(Mary.java:151)
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.startup(Mary.java:297)
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.startup(Mary.java:204)
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.main(Mary.java:513)
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5ttsCaused by: java.lang.OutOfMemoryError: Java heap space
+2022-01-07 08:13:55.06 UTCtts-6456db4d8-shcw5tts at marytts.unitselection.select.JoinCostFeatures.loadFromByteBuffer(JoinCostFeatures.java:218)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.unitselection.select.JoinCostFeatures.load(JoinCostFeatures.java:143)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.unitselection.select.JoinCostFeatures.init(JoinCostFeatures.java:119)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.unitselection.UnitSelectionVoice.<init>(UnitSelectionVoice.java:120)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.unitselection.UnitSelectionSynthesizer.startup(UnitSelectionSynthesizer.java:94)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.modules.Synthesis.startupSynthesizers(Synthesis.java:73)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.modules.Synthesis.startup(Synthesis.java:65)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.startModules(Mary.java:149)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts ... 3 more
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5ttsException in thread "Thread-1" java.lang.IllegalStateException: MARY system is not running
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary.shutdown(Mary.java:371)
+2022-01-07 08:13:55.08 UTCtts-6456db4d8-shcw5tts at marytts.server.Mary$2.run(Mary.java:290)
+2022-01-07 08:13:55.18 UTCtts-6456db4d8-shcw5tts:server FAILED
+2022-01-07 08:13:55.19 UTCtts-6456db4d8-shcw5tts
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5ttsFAILURE: Build failed with an exception.
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts* What went wrong:
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5ttsExecution failed for task ':server'.
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts> Process 'command '/usr/lib/jvm/java-1.8-openjdk/bin/java'' finished with non-zero exit value 1
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts* Try:
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5ttsRun with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts* Get more help at https://help.gradle.org
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5ttsBUILD FAILED in 41s
+2022-01-07 08:13:55.20 UTCtts-6456db4d8-shcw5tts1 actionable task: 1 executed

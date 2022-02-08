@@ -1,0 +1,46 @@
+2022-01-07 08:06:34.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully assigned voice-shubhamjugran/frontend-676cf7c6db-l57qb to gke-cloud-dev-a-0-93c7011f-9s23
+2022-01-07 08:06:36.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Pulling image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts"
+2022-01-07 08:06:51.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts" in 15.871203749s
+2022-01-07 08:06:52.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Created container frontend
+2022-01-07 08:06:52.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Started container frontend
+2022-01-07 08:06:54.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts" in 275.30363ms
+2022-01-07 08:06:56.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Back-off restarting failed container
+2022-01-07 08:07:12.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts" in 227.762317ms
+2022-01-07 08:07:40.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts" in 393.680891ms
+2022-01-07 08:08:23.00 UTCfrontend-676cf7c6db-l57qb[pod-event]Successfully pulled image "registry.cloud.okteto.net/voice-shubhamjugran/botium-speech-processing-frontend:okteto-with-volume-mounts" in 188.012407ms
+2022-01-07 08:09:59.52 UTCfrontend-676cf7c6db-l57qbfrontend
+2022-01-07 08:09:59.52 UTCfrontend-676cf7c6db-l57qbfrontend> botium-speech-processing-frontend@1.0.0 start-dist /app
+2022-01-07 08:09:59.52 UTCfrontend-676cf7c6db-l57qbfrontend> node -r dotenv-flow/config ./src/server.js
+2022-01-07 08:09:59.52 UTCfrontend-676cf7c6db-l57qbfrontend
+2022-01-07 08:09:59.59 UTCfrontend-676cf7c6db-l57qbfrontenddotenv-flow: "BOTIUM_SPEECH_PROVIDER_TTS" is already defined in `process.env` and will not be overwritten
+2022-01-07 08:09:59.59 UTCfrontend-676cf7c6db-l57qbfrontenddotenv-flow: "BOTIUM_SPEECH_PROVIDER_STT" is already defined in `process.env` and will not be overwritten
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend/app/node_modules/mkdirp/lib/mkdirp-native.js:35
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend throw er
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend ^
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontendError: EACCES: permission denied, mkdir '/app/resources/.cache/stt'
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Object.mkdirSync (fs.js:987:3)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at mkdirpNativeSync (/app/node_modules/mkdirp/lib/mkdirp-native.js:29:10)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Function.mkdirpSync [as sync] (/app/node_modules/mkdirp/index.js:21:7)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Object.<anonymous> (/app/src/routes.js:30:26)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Module._compile (internal/modules/cjs/loader.js:1063:30)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend at require (internal/modules/cjs/helpers.js:88:18) {
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend errno: -13,
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend syscall: 'mkdir',
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend code: 'EACCES',
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend path: '/app/resources/.cache/stt'
+2022-01-07 08:10:00.35 UTCfrontend-676cf7c6db-l57qbfrontend}
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! code ELIFECYCLE
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! errno 1
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! botium-speech-processing-frontend@1.0.0 start-dist: `node -r dotenv-flow/config ./src/server.js`
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! Exit status 1
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! 
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! Failed at the botium-speech-processing-frontend@1.0.0 start-dist script.
+2022-01-07 08:10:00.37 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2022-01-07 08:10:00.38 UTCfrontend-676cf7c6db-l57qbfrontend
+2022-01-07 08:10:00.38 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! A complete log of this run can be found in:
+2022-01-07 08:10:00.38 UTCfrontend-676cf7c6db-l57qbfrontendnpm ERR! /home/node/.npm/_logs/2022-01-07T08_10_00_377Z-debug.log
