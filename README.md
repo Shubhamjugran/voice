@@ -25,8 +25,8 @@ Operating System : Windows 10 (Version : 21H1)
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
 **- (Speech To Text) kaldi STT engine (2 workers for 2 sessions)** :point_down: ![This is an image](/screenshots/kaldi.png)
-**- (Text To Speech) pico TTS engine**  :point_down: ![This is an image](/screenshots/tts.png)
-**- (Frontend) PicoTTS & MonoWAV Conversion**   :point_down: ![This is an image](/screenshots/frntend.png)
+**- (Text To Speech) MaryTTS engine**  :point_down: ![This is an image](/screenshots/tts.png)
+**- (Frontend GUI) PicoTTS & MonoWAV Conversion**   :point_down: ![This is an image](/screenshots/frntend.png)
 **- (Nginx) Web Server**                :point_down: ![This is an image](/screenshots/nginx.png)
 **- Open Source Cloud Deployment On Okteto**
 **- (Rasa Server) General Bot**         :point_down: ![This is an image](/screenshots/rasa.png)
