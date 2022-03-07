@@ -1,7 +1,5 @@
 # Voicebot powered by Rasa Open Source & Botium Speech Processing :robot:  :sound:
 
-### Automated Speech Processing with Kaldi
-
 ## Tested/Implemented on below hardware ::abacus:
 
 (HP Omen Notebook 2021)  
