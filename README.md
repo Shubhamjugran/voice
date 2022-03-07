@@ -26,7 +26,7 @@ Operating System : Windows 10 (Version : 21H1)
 
 **- (Speech To Text) kaldi STT engine (2 workers for 2 sessions)** :point_down: ![This is an image](/screenshots/kaldi.png)
 **- (Text To Speech) pico TTS engine**  :point_down: ![This is an image](/screenshots/tts.png)
-**- (Frontend) GUI for test out API**   :point_down: ![This is an image](/screenshots/frntend.png)
+**- (Frontend) PicoTTS & MonoWAV Conversion**   :point_down: ![This is an image](/screenshots/frntend.png)
 **- (Nginx) Web Server**                :point_down: ![This is an image](/screenshots/nginx.png)
 **- (Rasa Server) General Bot**         :point_down: ![This is an image](/screenshots/rasa.png)
 **- (Rasa-actions-server)**             :point_down: ![This is an image](/screenshots/actions.png)
