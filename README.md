@@ -20,7 +20,7 @@ Operating System : Windows 10 (Version : 21H1)
 - IDE like pycharm,vscode etc or cmd.  
 - Rasa Open Source project [link](https://github.com/Shubhamjugran/rasa_gen)  
 - Botium Speech Processing [link](https://github.com/Shubhamjugran/botium-speech-processing)  
-- Webpage for chatbot interaction (UI).[link](https://awaaz.azurewebsites.net/home/demo)
+- Webpage for chatbot interaction (UI).[link](https://awaaz.azurewebsites.net/home/app)
 
 ## Resource Consumption (Idle) :hourglass_flowing_sand:  
 
